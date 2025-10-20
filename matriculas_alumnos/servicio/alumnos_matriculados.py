@@ -11,9 +11,9 @@ class AlumnosMatriculados:
         try:
             with open(AlumnosMatriculados.ruta_archivo, 'a') as archivo:
                 archivo.write(f'{alumno.nombre}\n')
-            print(f"✅ Alumno '{alumno.nombre}' matriculado correctamente.")
+            print(f" Alumno '{alumno.nombre}' matriculado correctamente.")
         except Exception as e:
-            print(f"❌ Error al matricular alumno: {e}")
+            print(f" Error al matricular alumno: {e}")
 
     @staticmethod
     def listar_alumnos():
@@ -31,7 +31,7 @@ class AlumnosMatriculados:
             else:
                 print("ℹ️  Aún no se ha creado el archivo de alumnos.")
         except Exception as e:
-            print(f"❌ Error al listar alumnos: {e}")
+            print(f" Error al listar alumnos: {e}")
 
     @staticmethod
     def eliminar_alumnos():
@@ -39,8 +39,8 @@ class AlumnosMatriculados:
         try:
             if os.path.exists(AlumnosMatriculados.ruta_archivo):
                 os.remove(AlumnosMatriculados.ruta_archivo)
-                print("✅ Archivo de alumnos eliminado correctamente.")
+                print(" Archivo de alumnos eliminado correctamente.")
             else:
-                print("ℹ️  El archivo de alumnos no existe, no hay nada que eliminar.")
+                print("  El archivo de alumnos no existe, no hay nada que eliminar.")
         except Exception as e:
-            print(f"❌ Error al eliminar el archivo: {e}")
+            print(f" Error al eliminar el archivo: {e}")
