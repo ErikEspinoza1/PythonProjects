@@ -27,11 +27,11 @@ def main():
             AlumnosMatriculados.eliminar_alumnos()
 
         elif opcion == '4':
-            print("👋 Saliendo del programa. ¡Hasta pronto!")
+            print(" Saliendo del programa. ¡Hasta pronto!")
             break
         
         else:
-            print("❌ Opción no válida. Por favor, elige un número del 1 al 4.")
+            print(" Opción no válida. Por favor, elige un número del 1 al 4.")
 
 if __name__ == "__main__":
     main()
