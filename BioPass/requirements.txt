@@ -1,0 +1,5 @@
+psycopg2-binary   # Driver para PostgreSQL (versión binaria es más fácil de instalar) [cite: 2, 72]
+python-dotenv     # Para leer el archivo .env y proteger credenciales [cite: 102]
+opencv-contrib-python # Para la cámara y gestión de imágenes [cite: 2, 114]
+numpy             # Necesario para OpenCV
+pillow            # (Opcional pero recomendada) Ayuda a mostrar imágenes en Tkinter
