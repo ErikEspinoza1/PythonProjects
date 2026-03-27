@@ -1,0 +1,7 @@
+opencv-python
+mediapipe==0.10.14
+pycaw
+python-dotenv
+pymongo
+comtypes
+protobuf==4.25.9
